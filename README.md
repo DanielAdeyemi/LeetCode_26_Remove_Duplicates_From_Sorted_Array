@@ -20,7 +20,7 @@
 
 ##### **_This is solutions for Leet Code problem [# 26 "Remove Duplicates from Sorted Array"](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)._**
 
-### <div align="center"> 🤔 Problem description:
+## <div align="center"> 🤔 Problem description:
 
 Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same. If there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
 
@@ -30,6 +30,13 @@ Return k after placing the final result in the first k slots of nums.
 
 <img src="assets/1.png" width=50% display="block" margin-left="auto" margin-right="auto"/>
 
+## <div align="center"> 🕰️ 🌌 Time and space complexity:
+
+| Complexity | O()  |                    Explanation                     |
+| :--------: | :--: | :------------------------------------------------: |
+|    Time    | O(n) |             run through an array once              |
+|   Space    | O(1) | we are doing it in place so no more space required |
+
 ## <div align="center"> 🛠️ _Technologies used:_
 
 - Python 3.9
@@ -38,6 +45,7 @@ Return k after placing the final result in the first k slots of nums.
 ## <div align="center"> 🌟 _Teaching points:_
 
 - don't forget to reduce index after removing intger from an array;
+- for Python easier use 'while' loop since we can't change index inside for loop
 
 ## <div align="center"> 🌟 _Improvement opportunities:_
 
