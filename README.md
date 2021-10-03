@@ -1,4 +1,4 @@
-## <div align="center">Min Stack</div>
+## <div align="center">Remove Duplicates from Sorted Array</div>
 
 #### <div align="center">📚 _LeetCode Problem #26 (**Level Easy**) 10/02/2021_ </div>
 
